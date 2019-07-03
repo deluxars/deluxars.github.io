@@ -66,4 +66,15 @@ span{
     right:0;
     opacity:0;
 }
-li:hover
+li:hover span{
+    bottom:10px;
+    opacity:1;
+}
+p{
+    text-align:center;
+}
+@media (max-width: 380px) {
+    li{
+        width:100%;float:none;
+    }
+}
